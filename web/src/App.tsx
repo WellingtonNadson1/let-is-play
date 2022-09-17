@@ -5,7 +5,9 @@ interface ITitle {
 function App(props: ITitle) {
   
   return (
-    <h1>{props.title}</h1>
+    <div className="">
+      <h1 className="text-white">{props.title}</h1>
+    </div>
   )
 }
 
